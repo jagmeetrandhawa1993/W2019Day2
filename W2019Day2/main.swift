@@ -10,3 +10,9 @@ import Foundation
 
 print("Hello, World!")
 
+var a:Int
+/*if(true==false)
+{print ("y")}*/
+
+
+
