@@ -28,3 +28,38 @@ print(str.hasPrefix("Hello"))
 print(str.hasSuffix("Me"))
 print(str.lowercased())
 
+print(p.uppercased())
+
+for c in str
+{
+    print(c)
+}
+//Type of range
+//closed range
+var x = 5...10
+for i in x
+{
+    print(i)
+}
+
+print(x)
+
+//Infinite loop
+/*var y=1...
+for i in y
+{
+    print(i)
+}*/
+
+//partial range
+var z=1...
+for i in z
+{
+        print(i)
+    if(i==20)
+    {
+        break
+    }
+}
+
+
