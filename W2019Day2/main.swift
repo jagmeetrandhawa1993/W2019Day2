@@ -108,7 +108,7 @@ for i in w
     print(i)
 }
 
-//Array slice 
+//Array slice
 var q = w[1...3]
 print(q)
 q[1] = 2020
@@ -126,3 +126,67 @@ r.append(100)
 print(r)
 
 
+let x0 = [1,2,3,4,5]
+var y0 = Array(repeating: 0, count: x0.count)
+
+/*for i in 0..<x0.count
+{
+    var t=1
+    for j in 0..<
+}*/
+print("---Set Data Structure------------")
+
+var s1 = Set<String>()
+s1.insert("Canada")
+s1.insert("USA")
+s1.insert("India")
+
+print(s1)
+
+s1.insert("uk")
+print(s1)
+
+//Dictionary
+
+var d=[1: "Abc",
+       2: "Hello"]
+
+print("------Dictionary Example------")
+print(d)
+
+d[3] = "Hello world"
+
+print(d)
+
+print(d[4])  // it will give nil value
+
+var country = Dictionary<String, String>()
+country.updateValue("India", forKey: "IND")
+country.updateValue("China", forKey: "CHI")
+//country.updateValue("India", forKey: "IND")
+//country.updateValue("India", forKey: "IND")
+
+print(country)
+
+for i in country
+{
+    print(i)
+}
+
+print("-------------------------")
+for (k, v) in country
+{
+    print(k,v)
+}
+
+print("-------------------------")
+for (k, _) in country
+{
+    print(k)
+}
+
+print("-------------------------")
+for (_, v) in country
+{
+    print(v)
+}
